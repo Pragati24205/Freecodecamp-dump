@@ -1,0 +1,91 @@
+#image {     
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  
+}
+img{
+  display:block;
+  
+}
+
+#main{
+  background-color:#B0E0E6;
+  color: #333333;
+  font-family: "Segoe UI", sans-serif;
+  padding:20px;
+  
+}
+
+#img-caption{
+  text-align:center; 
+  font-family:ariel;
+  font-size:20px;
+  font-style:oblique;
+}
+#title{
+  text-align:center;
+}
+#sub-title{
+  text-align:center;
+  font-style:oblique;
+
+}
+#tribute-link:hover{
+  color: #1b1b32;
+  cursor: pointer;
+}
+#tribute-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+}
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+
+.card h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  padding-left: 20px;
+  text-align: left;
+}
+#img-div {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 60%;
+  margin: 20px auto;
+  text-align: center;
+}
+.link{
+  text-align:center;
+  font-family:ariel;
+  font-size:20px;
+  background-color:#ffffff;
+  border-radius:20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width:50%;
+  margin:auto;
+  padding:20px;
+}
